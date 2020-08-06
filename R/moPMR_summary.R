@@ -4,7 +4,7 @@
 #' @param Zscore_2 the Zscore matrix of the cis-SNP effect size matrix, each column for one specific gene in GWAS data
 #' @param Sigma1sin the LD matrix in eQTL data
 #' @param Sigma2sin the LD matrix in GWAS data,both Sigma2sin and sigma1sin are often the same from the reference panel
-#' @param Sigmayin the corrlation matrix among multiple traits, Sigmayin can be estimated using mocor function
+#' @param Sigmayin the corrlation matrix among multiple traits
 #' @param samplen1 the sample size of eQTL data
 #' @param samplen2 the sample size of GWAS data
 #' @param max_iterin The maximum iteration, which can be determined by users.
